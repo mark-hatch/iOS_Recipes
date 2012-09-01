@@ -15,7 +15,7 @@ class TestViewController < UITableViewController
   end
 
   def tableView(tableView, numberOfRowsInSection:section)
-    rows = 100
+    rows = 200
   end
 
   def tableView(tableView, cellForRowAtIndexPath: indexPath)

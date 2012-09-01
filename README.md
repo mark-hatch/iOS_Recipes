@@ -5,7 +5,7 @@ Based on the book titled "iOS Recipes" (Pragmatic Programmers).  The original re
 
 [Recipes]: http://pragprog.com/book/cdirec/ios-recipes
 
-** SmarterTableCellsNib **
+**SmarterTableCellsNib**
 
 A nice recipe that simplifies TableViewController by abstracting the table cell production to the cell itself via subclassing of UITableViewCell and extending it with several methods.  But it doesn't stop there, the recipe also uses subclassing to apply a complex Nib-based table cell as the prototype cell.
 
