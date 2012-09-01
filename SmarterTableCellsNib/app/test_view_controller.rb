@@ -7,15 +7,15 @@ class TestViewController < UITableViewController
   end
 
   def complex_cell_nib
-      complex_cell_nib ||= ComplexTableViewCell.nib
+      @complex_cell_nib ||= ComplexTableViewCell.nib
   end
 
   def numberOfSectionsInTableView(tableView)
-    sections = 1
+    1
   end
 
   def tableView(tableView, numberOfRowsInSection:section)
-    rows = 200
+    200
   end
 
   def tableView(tableView, cellForRowAtIndexPath: indexPath)

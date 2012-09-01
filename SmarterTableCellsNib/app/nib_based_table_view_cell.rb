@@ -23,7 +23,7 @@ class NibBasedTableViewCell < UITableViewCell
 
   def self.nib
     class_bundle = NSBundle.bundleForClass self.class
-    UINib.nibWithNibName self.nib_name, bundle:class_bundle
+    UINib.nibWithNibName nib_name, bundle:class_bundle
   end
 
   def self.nib_name
